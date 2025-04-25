@@ -6,6 +6,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
+    color: #4b5563;
 }
 
 nav{
@@ -29,6 +30,7 @@ ul{
     flex-direction: row;
     gap: 25px;
 }
+
 li{
     color: #E5E7EB;
     font-size: 18px;
@@ -69,4 +71,44 @@ button{
     border-radius: 8px;
     border-style: none;
     font-weight: 900;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 16px;
+    height: 65vh;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 60%;
+}
+
+.header{
+font-size: 36px;
+color:#1f2937;
+font-weight: 900;
+}
+
+.info-piece{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: solid 4px #3b82f6;
+    border-radius: 15px;
+}
+
+.text{
+    text-align: center;
+    width: 150px;
 }
