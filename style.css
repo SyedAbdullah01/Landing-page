@@ -39,17 +39,15 @@ li{
 .hero{
     display: flex;
     flex-direction: row;
-    gap: 20%;
+    justify-content: space-between;
     max-width: 80%;
     padding: 9% 15%;
     background-color: #1f2937;
     color: white;
 }
 
-.hero-left{
-    display: flex;
-    flex-direction: column;
-    gap: 4%;
+.header-btn{
+    margin-top: 10px;
 }
 
 .hero-header{
@@ -158,4 +156,22 @@ font-weight: 900;
 .cta-header{
     font-weight: bold;
     font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 2% 0%;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-color: #6d747d;
 }
