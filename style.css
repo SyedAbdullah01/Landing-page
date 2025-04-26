@@ -112,3 +112,50 @@ font-weight: 900;
     text-align: center;
     width: 150px;
 }
+
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 7% 20%;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author{
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+    font-size: 21px;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 15%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    padding: 4% 7%;
+    color: white;
+}
+
+
+.cta{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-btn{
+    border: solid white 2px;
+}
+
+.cta-header{
+    font-weight: bold;
+    font-size: 20px;
+}
